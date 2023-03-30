@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online</title>
+    <link rel="stylesheet" href="orderOnline.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="navbar">
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="catering.html">CATERING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="order">
+                <a href="#billing"> <button class="btn">Cart</button></a>
+            </div>
+        </div>
+
+        <div class="icon">
+            <div class="logo">
+                <img class="logo-img" src="img/logo1.png" width="100" height="100" ALT="align box" ALIGN=CENTER>
+            </div>
+            <h2 class="logo-name">South Corner</h2>
+        </div>
+
+        <div class="item">
+            <h2>Dosa</h2>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Add to Cart</th>
+                </tr>
+                <tr>
+                    <td>Plain Dosa</td>
+                    <td>₹50</td>
+                    <td><button onclick="addToCart('Plain Dosa', 50)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Masala Dosa</td>
+                    <td>₹60</td>
+                    <td><button onclick="addToCart('Masala Dosa', 60)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Paper Masala Dosa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Paper Masala Dosa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Onion Dosa</td>
+                    <td>₹60</td>
+                    <td><button onclick="addToCart('Onion Dosa', 60)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Onion Masala Dosa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Onion Masala Dosa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Mysore Sadha Dosa</td>
+                    <td>₹60</td>
+                    <td><button onclick="addToCart('Mysore Sadha Dosa', 60)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Mysore Masala Dosa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Mysore Masala Dosa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Mysore Onion Dosa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Mysore Onion Dosa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Schezwan Sadha Dosa</td>
+                    <td>₹60</td>
+                    <td><button onclick="addToCart('Schezwan Sadha Dosa', 60)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Schezwan Masala Dosa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Schezwan Masala Dosa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Schezwan Onion Dosa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Schezwan Onion Dosa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Paneer Plain Dosa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Paneer Plain Dosa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Paneer Masala Dosa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Paneer Masala Dosa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Paneer Schezwan Masala Dosa</td>
+                    <td>₹90</td>
+                    <td><button onclick="addToCart('Paneer Schezwan Masala Dosa', 90)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Set Dosa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Set Dosa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Cut Dosa</td>
+                    <td>₹60</td>
+                    <td><button onclick="addToCart('Cut Dosa', 60)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>South Corner Special Dosa</td>
+                    <td>₹120</td>
+                    <td><button onclick="addToCart('South Corner Special Dosa', 120)">Add</button></td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="item1">
+            <h2>Butter / Cheese Dosa</h2>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Add to Cart</th>
+                </tr>
+                <tr>
+                    <td>Plain Dosa</td>
+                    <td>₹60</td>
+                    <td><button onclick="addToCart('Plain Dosa', 60)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Masala Dosa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Masala Dosa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Paper Masala Dosa</td>
+                    <td>₹90</td>
+                    <td><button onclick="addToCart('Paper Masala Dosa', 90)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Onion Dosa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Onion Dosa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Onion Masala Dosa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Onion Masala Dosa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Mysore Sadha Dosa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Mysore Sadha Dosa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Mysore Masala Dosa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Mysore Masala Dosa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Mysore Onion Dosa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Mysore Onion Dosa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Schezwan Sadha Dosa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Schezwan Sadha Dosa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Schezwan Masala Dosa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Schezwan Masala Dosa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Schezwan Onion Dosa</td>
+                    <td>₹90</td>
+                    <td><button onclick="addToCart('Schezwan Onion Dosa', 90)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Paneer Plain Dosa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Paneer Plain Dosa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Paneer Masala Dosa</td>
+                    <td>₹90</td>
+                    <td><button onclick="addToCart('Paneer Masala Dosa', 90)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Paneer Schezwan Masala Dosa</td>
+                    <td>₹100</td>
+                    <td><button onclick="addToCart('Paneer Schezwan Masala Dosa', 100)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Set Dosa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Set Dosa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Corn Dosa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Corn Dosa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Loni Dosa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Loni Dosa', 80)">Add</button></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <div class="page2">
+        <div class="item">
+            <h2>Uttappa</h2>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Add to Cart</th>
+                </tr>
+                <tr>
+                    <td>Plain Uttappa</td>
+                    <td>₹50</td>
+                    <td><button onclick="addToCart('Plain Uttappa', 50)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Masala Uttappa</td>
+                    <td>₹60</td>
+                    <td><button onclick="addToCart('Masala Uttappa', 60)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Onion Uttappa</td>
+                    <td>₹60</td>
+                    <td><button onclick="addToCart('Onion Uttappa', 60)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Tomato Uttappa</td>
+                    <td>₹60</td>
+                    <td><button onclick="addToCart('Tomato Uttappa', 60)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Onion Tomato Uttappa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Onion Tomato Uttappa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Onion Masala Uttappa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Onion Masala Uttappa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Mysore Masala Uttappa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Mysore Masala Uttappa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Mysore Onion Uttappa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Mysore Onion Uttappa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Schezwan Masala Uttappa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Schezwan Masala Uttappa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Schezwan Onion Uttappa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Schezwan Onion Uttappa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Paneer Masala Uttappa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Paneer Masala Uttappa', 80)">Add</button></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div class="item1">
+            <h2>Butter / Cheese Uttappa</h2>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Add to Cart</th>
+                </tr>
+                <tr>
+                    <td>Plain Uttappa</td>
+                    <td>₹60</td>
+                    <td><button onclick="addToCart('Plain Uttappa', 60)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Masala Uttappa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Masala Uttappa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Onion Uttappa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Onion Uttappa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Tomato Uttappa</td>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Tomato Uttappa', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Onion Tomato Uttappa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Onion Tomato Uttappa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Onion Masala Uttappa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Onion Masala Uttappa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Mysore Masala Uttappa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Mysore Masala Uttappa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Mysore Onion Uttappa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Mysore Onion Uttappa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Schezwan Masala Uttappa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Schezwan Masala Uttappa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Schezwan Onion Uttappa</td>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Schezwan Onion Uttappa', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Paneer Masala Uttappa</td>
+                    <td>₹90</td>
+                    <td><button onclick="addToCart('Paneer Masala Uttappa', 90)">Add</button></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <div class="page3">
+        <div class="item">
+            <h2>Paratha</h2>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Add to Cart</th>
+                </tr>
+                <tr>
+                    <th>Aloo Paratha</th>
+                    <td>₹60</td>
+                    <td><button onclick="addToCart('Aloo Paratha', 60)">Add</button></td>
+                </tr>
+                <tr>
+                    <th>Methi Paratha</th>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Methi Paratha', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <th>Palak Paratha</th>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Palak Paratha', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <th>Onion Paratha</th>
+                    <td>₹70</td>
+                    <td><button onclick="addToCart('Onion Paratha', 70)">Add</button></td>
+                </tr>
+                <tr>
+                    <th>Paneer Paratha</th>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Paneer Paratha', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <th>Aloo Methi Paratha</th>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Aloo Methi Paratha', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <th>Aloo Onion Paratha</th>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Aloo Onion Paratha', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <th>Aloo Palak Paratha</th>
+                    <td>₹80</td>
+                    <td><button onclick="addToCart('Aloo Palak Paratha', 80)">Add</button></td>
+                </tr>
+                <tr>
+                    <th>Aloo Cheese Paratha</th>
+                    <td>₹90</td>
+                    <td><button onclick="addToCart('Aloo Cheese Paratha', 90)">Add</button></td>
+                </tr>
+                <tr>
+                    <th>Cheese Paratha</th>
+                    <td>₹90</td>
+                    <td><button onclick="addToCart('Cheese Paratha', 90)">Add</button></td>
+                </tr>
+                <tr>
+                    <th>Mix Paratha</th>
+                    <td>₹100</td>
+                    <td><button onclick="addToCart('Mix Paratha', 100)">Add</button></td>
+                </tr>
+
+            </table>
+
+
+
+            <div class="item1">
+                <h2>Snacks</h2>
+
+                <table>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Add to Cart</th>
+                    </tr>
+                    <tr>
+                        <th>Poha</th>
+                        <td>₹30</td>
+                        <td><button onclick="addToCart('Poha', 30)">Add</button></td>
+                    </tr>
+                    <tr>
+                        <th>Upma</th>
+                        <td>₹30</td>
+                        <td><button onclick="addToCart('Upma', 30)">Add</button></td>
+                    </tr>
+                    <tr>
+                        <th>Tea</th>
+                        <td>₹12</td>
+                        <td><button onclick="addToCart('Tea', 12)">Add</button></td>
+                    </tr>
+                    <tr>
+                        <th>Bun Maska</th>
+                        <td>₹25</td>
+                        <td><button onclick="addToCart('Bun Maska', 25)">Add</button></td>
+                    </tr>
+                    <tr>
+                        <th>Butter Milk</th>
+                        <td>₹20</td>
+                        <td><button onclick="addToCart('Butter Milk', 20)">Add</button></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="item2">
+                <h2>Rice</h2>
+                <table>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Add to Cart</th>
+                    </tr>
+                    <tr>
+                        <th>Pulao</th>
+                        <td>₹60</td>
+                        <td><button onclick="addToCart('Pulao', 60)">Add</button></td>
+                    </tr>
+                    <tr>
+                        <th>Curd Rice</th>
+                        <td>₹60</td>
+                        <td><button onclick="addToCart('Curd Rice', 60)">Add</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="page4" id="billing">
+        <div class="bill">
+            <h1>Billing</h1>
+            <table id="cartTable">
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Remove</th>
+                </tr>
+            </table>
+        </div>
+
+
+        <p id="total"></p>
+        <button class="button" onclick="printBill()">Print Bill</button>
+        <div id="bill" style="display:none;">
+            <button onclick="checkout()">Checkout</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer">
+
+            <div class="title">
+                <p>Hungry?</p>
+            </div>
+
+            <div class="par-1">
+                <p>Once you try it, you will love it.</p>
+            </div>
+
+            <div class="par-2">
+                <p class="bold">WE’RE OPEN:</p><br>
+                <p class="time">Tuesday - Sunday<br> 09am - 11pm</p>
+            </div>
+
+            <div class="par-3">
+                <p>Oppo bank of Maharashtra, Sr no 258/4/c,<br> Shreenath complex Hinjawadi Phase 1, Pune,<br>
+                    Maharashtra 411057</p>
+            </div>
+
+            <div class="par-4">
+                <p>Tel: 9623192685<br>7030075323<br>Email: info@mysite.com</p>
+            </div>
+
+            <div class="par-5">
+                <p>© 2023 by Omkar Vijay Pawar. Powered and secured by Omi.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        var cart = {};
+
+        function addToCart(item, price) {
+            if (item in cart) {
+                cart[item]["quantity"] += 1;
+            } else {
+                cart[item] = { "price": price, "quantity": 1 };
+            }
+
+            updateCart();
+        }
+
+        function removeItem(item) {
+            delete cart[item];
+            updateCart();
+        }
+
+        function updateCart() {
+            var cartTable = document.getElementById("cartTable");
+            cartTable.innerHTML = "<tr><th>Item</th><th>Price</th><th>Quantity</th><th>Remove</th></tr>";
+
+            var total = 0;
+            var count = 0;
+            var billingDetails = "";
+
+            for (var item in cart) {
+                var itemRow = "<tr><td>" + item + "</td><td>₹" + cart[item]["price"].toFixed(2) + "</td><td>" + cart[item]["quantity"] + "</td><td><button onclick='removeItem(\"" + item + "\")'>Remove</button></td></tr>";
+                cartTable.innerHTML += itemRow;
+
+                total += cart[item]["price"] * cart[item]["quantity"];
+                count += cart[item]["quantity"];
+
+                billingDetails += item + " x " + cart[item]["quantity"] + " = ₹" + (cart[item]["price"] * cart[item]["quantity"]).toFixed(2) + "<br>";
+            }
+
+            var tax = 0.1 * total;
+            var totalBill = total + tax;
+
+            var totalRow = "<tr><td colspan='2'></td><td><b>Total:</b></td><td>₹" + total.toFixed(2) + "</td></tr>";
+            var taxRow = "<tr><td colspan='2'></td><td><b>Tax:</b></td><td>₹" + tax.toFixed(2) + "</td></tr>";
+            var totalBillRow = "<tr><td colspan='2'></td><td><b>Total Bill:</b></td><td>₹" + totalBill.toFixed(2) + "</td></tr>";
+
+            cartTable.innerHTML += totalRow + taxRow + totalBillRow;
+
+
+        }
+
+        function printBill() {
+            let printContents = document.getElementById("bill").innerHTML;
+            let originalContents = document.body.innerHTML;
+            document.body.innerHTML = printContents;
+            window.print();
+            document.body.innerHTML = originalContents;
+        }
+
+
+        function checkout() {
+            var total = 0;
+            var count = 0;
+
+            for (var item in cart) {
+                total += cart[item]["price"] * cart[item]["quantity"];
+                count += cart[item]["quantity"];
+            }
+
+            alert("Thank you for your order! Your total is ₹" + total.toFixed(2));
+            cart = {};
+            updateCart();
+        }
+
+
+
+    </script>
+
+
+</body>
+
+</html>
